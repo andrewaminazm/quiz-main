@@ -26,9 +26,9 @@ If you're using Linux, you'll want to have the required dependencies installed o
 To install Cypress using the npm (Node package manager) navigate to the project directory and execute the following command:
 
 npm init
-#Once done, run the command below to install Cypress#.
+#Once done, run the command below to install Cypress#.10.11.0
 
-npm install c
+npm i cypress@10.11.0
 
 then 
 run
@@ -40,7 +40,8 @@ npx cypress open
 
 the  featurefile and stepdefinition inside (e2e)  and page found inside cypress folder
 the video of run inside folder videos
-
+for run:
+npx cypress run
 
 ## [Optional] Commonn issues/Troubleshooting Hints
 https://docs.cypress.io/guides/references/troubleshooting
