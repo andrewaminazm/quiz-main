@@ -22,9 +22,8 @@ module.exports = defineConfig({
         return config;
       },
     specPattern: ["cypress/e2e/features/*.feature","cypress/e2e/features/*.js"],
-    baseUrl: "https://airmalta.com/en",
     chromeWebSecurity: false,
-    defaultcommandtimeout: 4500000,
+    defaultcommandtimeout: 3400000,
     viewportWidth: 1600,
     viewportHeight: 908,
     pageLoadTimeout:45000000,
